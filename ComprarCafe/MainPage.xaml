@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ComprarCafe.MainPage">
+
+    <StackLayout>
+        <Label Text="Comprar de café" 
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center" 
+                   FontSize="40"/>
+        <Image Source="https://www.designi.com.br/images/preview/11146285.jpg" />
+        <Label Text="Valor unitario" HorizontalOptions="CenterAndExpand" FontSize="Large"/>
+        <Label Text="R$ 5,00" HorizontalOptions="Center" FontSize="Large"/>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="-" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked"/>
+            <Button Text="+" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked"/>
+        </StackLayout>
+        <Label x:Name="lQtde" Text="Quantidade: 0" HorizontalOptions="CenterAndExpand" FontSize="Large"/>
+        <Label x:Name="lTotal" Text="Total: R$ 0,00" HorizontalOptions="CenterAndExpand" FontSize="Large"/>
+    </StackLayout>
+
+</ContentPage>
