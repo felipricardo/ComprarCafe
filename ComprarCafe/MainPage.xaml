@@ -4,7 +4,7 @@
              x:Class="ComprarCafe.MainPage">
 
     <StackLayout>
-        <Label Text="Comprar de café" 
+        <Label Text="Compra de café" 
                    HorizontalOptions="Center" 
                    VerticalOptions="Center" 
                    FontSize="40"/>
